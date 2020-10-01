@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio of evidence</title>
+    
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="main_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css links -->
+    
+</head>
+<body>
+
+    <!-- header -->
+    <header id="main_header">
+        <div class="container">
+            <!-- navbar -->
+            <nav>
+                <!-- brand -->
+                <div class="brand">
+                    <h1><span>K</span>H<span>A</span>N<span>Y</span>I<span>S</span>A</h1>
+                </div>
+                
+                <!-- nav links -->
+                <ul class="nav_links">
+                    <li><a href="index.html" class="pageName ">Home</a></li>
+                    <li><a href="work.html" class="pageName current">Work</a></li>
+                    <li><a href="about.html" class="pageName ">About</a></li>
+                    <li><a href="contact.html" class="pageName ">Contact</a></li>
+                </ul>
+                
+                <!-- burger for side menu -->
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <!-- end navbar -->
+        </div>
+    </header>
+    <!-- end header -->
+
+    <section id="section4">
+        <div class="container">
+            <h1 class="main-h1">My Work</h1>
+            <h3>1.  Sentiment Analysis of Social Media Texts (Twitter Data)</h3>
+            <div class="grid_column">
+                <div class="self_profile">
+                    <img src="images/sentiment.png">
+                </div>
+
+                <div class="my_story">
+                    <h3>Abstract</h3>
+
+                    <p>The aim of this project is to use automatic tools able to extract subjective information about technology from Twitter and build a sentiment analysis model to track whether user`s attitude towards technology is positive, negative or neutral. Twitter streaming API was used to download twitter messages in real time. The data was cleaned to remove irrelevant information that would make the model to underperform.</p>
+
+                    <p>For classification, rule-based method was used in the MonkeyLearn tool, where the data was set into training set and test set. In the training process, training dataset was uploaded into a feature extractor and each feature was then labelled. The labelled features were then uploaded into the sentiment analysis model that was to be generated in MonkeyLearn tool. In the testing process, the feature extractor was used to transform unseen text inputs into feature vectors. These feature vectors were then fed into the model, which generated predicted tags (positive, negative, or neutral) after testing the model.</p>
+
+                </div>
+            </div>
+
+
+                <div class="my_story">
+                    <h3>Sentiment Analysis of StudentTextual Feedback to Improve Teaching and Learning</h3>
+
+                    <p>Instructor evaluation is essential in education, it allows instructors to see if their teaching has been effective. Student feedback is an important feature in instructor evaluation. But, it is very challenging for a lecture who teaches numerous students to analyse feedback provided by all the students. To solve this problem, this paper focused on developing a sentiment analysis model to analyse student feedback to assess the effectiveness of teaching and learning. Algorithms like, Support Vector Machines, Multinomial Naive Bayes, Random Forest, K-Nearest Neighbors and Neural Networks were trained on Term Frequency-Inverse Document Frequency vectors and Synthetic Minority Over sampling Technique to classify student feedback into three sentiment classes: negative, positive or neutral, using student dataset collected from kaggle. Neural Network performed better in predicting the sentiment of student feedback than the other algorithms with good accuracy of 83%. The model will help institutions make effective decisions towards teaching and learning strategies.</p>
+
+                </div>
+            
+            <h3 class="project_title">Loan Approval Status Prediction for Banks</h3>
+            <div class="grid_column">
+                <div class="self_profile">
+                    <img src="images/loan1.jpeg">
+                    <img src="images/loan2.jpeg">
+                </div>
+
+                <div class="my_story">
+                    <h3>Abstract</h3>
+
+                    <p>Loan approval prediction is a very important process for banking sector. With the enhancement in the banking sector lots of people are applying for bank loans but the bank has its limited assets which it has to grant the loan only to applicants that have satisfied the bank that they meet all necessary requirements, so finding out customers who qualify to be granted a loan will be a safer option for the banks. This project proposed a predictive model to predict whether a loan applicant can be granted a loan ornot. The model has been built using loan applicant data. Machine Learning techniques are very useful in predicting outcomes for large amount of data. In this paper three machine learning algorithms, Decision Tree, K Nearest Neighbor and Logistic Regression informed by the literature have been applied to loan applicant data to build the predictive model. The model has been implemented and tested using Python Jupyter notebook. Logistic Regression algorithm performed better compared to the other algorithms with high accuracy of 86%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
